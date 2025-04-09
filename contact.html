@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crochet Designer - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Crochet Designer</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+            <label for="contact-name">Name:</label>
+            <input type="text" id="contact-name" required>
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" required>
+            <label for="contact-subject">Subject:</label>
+            <input type="text" id="contact-subject" required>
+            <label for="contact-message">Message:</label>
+            <textarea id="contact-message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2023 Crochet Designer. All rights reserved.</p>
+    </footer>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
